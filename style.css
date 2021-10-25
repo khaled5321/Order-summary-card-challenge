@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:16px;
+    font-family:'Red Hat Display', sans-serif;
+}
+body{
+    background-image: url('/images/pattern-background-desktop.svg');
+    background-color:hsl(225, 100%, 94%) ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: -500px -220px;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    align-items: center;
+    width:22rem;
+    height:31.25rem;
+    margin:1.563rem 0;
+    border-radius: 5%;
+    box-shadow: 1px 1px 3px 1px hsl(224, 23%, 55%);
+    background-color:hsl(225, 100%, 98%);
+    overflow:clip;
+}
+
+.container p{
+    text-align: center;
+    color:hsl(224, 23%, 55%);
+    font-size: 14px;
+    width: 30ch;
+}
+
+.music-guy{
+    width: 22rem;
+    margin:0px 0 10px;
+}
+
+.order-summary h1{
+    text-align: center;
+    margin:10px 0 15px;
+    color:  hsl(223, 47%, 23%);
+    font-size:20px;
+    font-weight: 900;
+}
+
+.plan{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding:0.6rem;
+    width:18.75rem;
+    align-items: center;
+    gap:1.25rem;
+    border-radius: 8px;
+    background-color:  hsl(225, 70%, 96%);
+}
+
+.plan div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2px;
+}
+
+.plan h2{
+    font-weight: 700;
+    font-size: 14px;
+    color:hsl(223, 47%, 23%);
+}
+.plan p{
+    color:hsl(224, 23%, 55%);
+    font-size: 14px;
+    width:100%;
+}
+
+.plan a{
+    color:hsl(245, 75%, 52%);
+    font-weight:700;
+    font-size: 14px;
+    text-align: right;
+}
+.plan a:hover{
+    text-decoration:none;
+    color:hsl(224, 23%, 55%);
+}
+
+.proceed{
+    text-decoration: none;
+    text-align: center;
+    background-color: hsl(245, 75%, 52%);
+    color:hsl(225, 100%, 98%);
+    font-size: 12px;
+    font-weight: 700;
+    border-radius:8px;
+    width:18.75rem;
+    padding: 10px;
+    box-shadow:0px 10px 5px 1px hsl(225, 100%, 94%);
+
+}
+.proceed:hover{
+    background-color:hsl(245, 75%, 65%);
+}
+
+.cancel{
+    color:hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+.cancel:hover{
+    color:hsl(223, 47%, 23%);  
+}
+
+@media screen and (max-width:400px){
+    body{
+        background-image: url('/images/pattern-background-mobile.svg');
+        background-position: -500px -290px;
+    }
+
+    .container{
+        width:18.75rem;
+        height: 510px;
+    }
+    .container p{
+        width:25ch;
+    }
+    .plan{
+        width:260px;
+    }
+    .plan p{
+        width:fit-content;
+    }
+
+    .proceed{
+        width:260px;
+        padding:15px;
+    }
+
+    
+}
