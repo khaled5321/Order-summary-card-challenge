@@ -74,11 +74,13 @@ main{
 
 .plan h2{
     font-weight: 700;
+    width:11ch;
     font-size: 14px;
     color:hsl(223, 47%, 23%);
 }
 .plan p{
     color:hsl(224, 23%, 55%);
+    text-align: start;
     font-size: 14px;
     width:100%;
 }
