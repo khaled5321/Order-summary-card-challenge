@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/order-summary-card-using-flexbox-Pjwd-g4a8)
 - Live Site URL: [Github pages](https://khaled5321.github.io/Order-summary-card-challenge/)
 
 ## My process
