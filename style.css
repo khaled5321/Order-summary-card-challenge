@@ -6,11 +6,17 @@
     font-family:'Red Hat Display', sans-serif;
 }
 body{
-    background-image: url('/images/pattern-background-desktop.svg');
+    background-image: url('./images/pattern-background-desktop.svg');
     background-color:hsl(225, 100%, 94%) ;
     background-repeat:no-repeat;
     background-size:cover;
     background-position: -500px -220px;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 main{
